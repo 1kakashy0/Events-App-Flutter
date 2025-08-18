@@ -1,0 +1,112 @@
+name: event_project
+description: A new Flutter project.
+
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.3.2
+
+dependencies:
+  auto_animated: ^3.2.0
+  badges: ^3.1.1
+  cached_network_image: ^3.3.1
+  cloud_firestore: ^4.1.0
+  connectivity_plus: ^6.0.3
+  cupertino_icons: ^1.0.6
+  dartz: ^0.10.1
+  device_preview: ^1.1.0
+  dropdown_search: ^5.0.6
+  # firebase_auth: ^5.1.2
+  firebase_core: ^2.32.0
+  firebase_messaging: ^14.1.2
+  # firebase_storage: ^11.0.6
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^9.5.3+1
+  flutter_localizations:
+    sdk: flutter
+  flutter_otp_text_field: ^1.1.3+2
+  flutter_polyline_points: ^2.0.0
+  flutter_svg: ^2.0.10+1
+  fluttericon: ^2.0.0
+  font_awesome_flutter: ^10.4.0
+  geocoding: ^3.0.0
+  geolocator: ^11.0.0
+  get: ^4.6.6
+  google_maps_flutter: ^2.6.0
+  google_sign_in: ^6.2.1
+  grouped_list: ^5.1.2
+  http: ^1.0.0
+  image_picker: ^1.0.7
+  image_pickers: ^2.0.4+1
+  lottie: ^3.0.0
+  path: ^1.8.3
+  qr_flutter: ^4.1.0
+  responsive_builder: ^0.7.0
+  scan: ^1.6.0
+  shared_preferences: ^2.2.3
+  show_up_animation: ^2.0.0
+  sqflite: ^2.2.8+4
+  url_launcher: ^6.1.11
+  # firebase_admin: ^0.2.0
+  googleapis: ^12.0.0
+  googleapis_auth: ^1.4.1
+  provider: ^6.1.2
+  # flutter_app_info: ^1.1.2
+  flutter_ringtone_player: ^4.0.0+3
+  jiffy: ^6.3.1
+  # qr_flutter: ^4.1.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  flutter_map_animations: ^0.7.0
+  file_picker: ^5.2.3
+  drop_down_list: ^0.0.5
+  rating_dialog: ^2.0.4
+
+
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_lints: ^3.0.1 # Contains a set of recommended lints for Flutter code
+  flutter_test:
+    sdk: flutter # Required for a Flutter project that includes tests
+
+dependency_overrides:
+  intl: ^0.19.0
+  vm_service: ^14.2.0
+  test_api: ^0.7.0
+  meta: ^1.12.0
+  material_color_utilities: ^0.11.1
+  js: ^0.7.1
+
+
+flutter:
+  uses-material-design: true # Required if you use the Material icon font
+
+  generate: true # Enables generation of localized strings from arb files
+  assets:  # Lists assets, such as image files
+  - assets/images/logo.png
+  - assets/images/
+  - assets/lottie/
+  - assets/event-app-b6e7d-firebase-adminsdk-vv52j-684ee58a3c.json
+
+  fonts:              # Required if your app uses custom fonts
+    - family: Poppines
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
+          style: italic
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Bold.ttf
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 700
